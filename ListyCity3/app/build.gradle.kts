@@ -3,7 +3,11 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+
 android {
+
+
+
     namespace = "com.example.listycity"
     compileSdk = 36
 
@@ -33,9 +37,15 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+
+
 }
 
+
+
 dependencies {
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
